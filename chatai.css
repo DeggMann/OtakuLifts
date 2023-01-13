@@ -210,6 +210,23 @@ scroll-behavior: smooth;
     border-radius: 20px;
   }
 
+  #Contactus {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5% 10% 10%;
+    background: #00b3e3;
+    font-family: Kanit;
+  }
+
+  #Contactus h2 {
+    font-size: 4rem;
+   
+  }
+
+  #Contactus h3 {
+    font-size: 3rem;
+  }
+
   @media (max-width: 800px) {
     .nav {
       display: none;
@@ -225,5 +242,17 @@ scroll-behavior: smooth;
 
     .header {
       width: 100%;
+    }
+
+    #ser-container {
+      display: block;
+    }
+
+    #boc h3 {
+      font-size: 4rem;
+    }
+
+    #personal-training p {
+      font-size: 3rem;
     }
   }
