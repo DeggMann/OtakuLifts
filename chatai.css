@@ -227,6 +227,50 @@ scroll-behavior: smooth;
     font-size: 3rem;
   }
 
+  .step-boox {
+    background-color:  #00b3e3;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    color: aliceblue;
+  }
+
+  .step-number {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#how-it-works {
+  padding: 10%;
+  font-family: Kanit;
+  font-size: 2rem;
+  background: #4e4d57;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0%;
+}
+
+#how-it-works ul li {
+  list-style: none;
+}
+
+#how-it-works h2 {
+  text-align: center;
+  padding: 5%;
+  font-size: 4rem;
+  color: aliceblue;
+
+}
+
+
   @media (max-width: 800px) {
     .nav {
       display: none;
@@ -283,5 +327,18 @@ scroll-behavior: smooth;
 
     .per-sess-price {
       display: none;
+    }
+
+    #how-it-works h2 {
+      font-size: 3rem;
+    }
+
+    #how-it-works {
+      font-size: 1.5rem;
+    }
+
+    .step-number {
+      width: 2.25rem;
+      height: 2.25rem;
     }
   }
