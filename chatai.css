@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Manrope:wght@500&family=Roboto:wght@300&display=swap');
+/* font-family: Manrope; 
+    font-family: Roboto;
+    font-family: Kanit;
+    font-family: Bebas Neue;
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header * {
+    font-family: Kanit;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(29, 25, 25);
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .header.scrolled {
+    background: linear-gradient(to bottom, #333, rgba(204, 204, 204, 0));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: 0.3s;
+  }
+
+  .header a:hover {
+    color: red;
+   
+  }
+
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .header .nav {
+    display: flex;
+  }
+
+  .header .nav a {
+    font-size: 18px;
+  }
+
+  .header .contact-btn {
+    background-color: #00b3e3;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .header .contact-btn:hover {
+    background-color: #77c8e4;
+  }
+
+  .ee {
+    background-color: #00b3e3;
+    width: 100px;
+    height: 300px;
+    color: #000;
+  }
+
+
+  #contact-form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  #contact-form button[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #contact-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  #LS-one {
+    background-color: #000;
+  }
+
+  #about, #personal-training {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5% 10% 10%;
+    background: linear-gradient(to bottom, #202020, #4e4d57);
+  }
+  #about h2,#personal-training h2, #plan-section h2 {
+    margin: 20px 0;
+    color: aliceblue;
+    font-size: 3rem;
+  }
+  #about p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 5% 10%;
+    border-radius: 20px;
+    color: aliceblue;
+    background: linear-gradient(to bottom, #3f4557, #56536b);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  #personal-training p {
+    font-size: 1.5rem;
+  }
+
+  #about img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  #about *, #personal-training *, #plan-section * {
+    font-family: Kanit;
+  }
+
+  #boc h3 {
+    font-size: 2rem;
+  }
+
+  #bocs h3 {
+    font-size: 5rem;
+  }
+
+  #boc {
+    padding: 1% 5%;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+
+  #boc:hover, #bocs:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  #ser-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  #valsign {
+    color: red;
+  }
+
+  #plan-section {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5% 10% 10%;
+    background: #4e4d57;
+  }
+
+  #bocs {
+    padding: 1% 5%;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+
+  #Contactus {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5% 10% 10%;
+    background: #00b3e3;
+    font-family: Kanit;
+  }
+
+  #Contactus h2 {
+    font-size: 4rem;
+   
+  }
+
+  #Contactus h3 {
+    font-size: 3rem;
+  }
+
+  .step-boox {
+    background-color:  #00b3e3;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    color: aliceblue;
+  }
+
+  .step-number {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#how-it-works {
+  padding: 10%;
+  font-family: Kanit;
+  font-size: 2rem;
+  background: #4e4d57;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0%;
+}
+
+#how-it-works ul li {
+  list-style: none;
+}
+
+#how-it-works h2 {
+  text-align: center;
+  padding: 5%;
+  font-size: 4rem;
+  color: aliceblue;
+
+}
+
+
+  @media (max-width: 800px) {
+    .nav {
+      display: none;
+    }
+
+    .nav a{
+      display: none;
+    }
+
+    * {
+      max-width: 100%;
+    }
+
+    .header {
+      width: 100%;
+    }
+
+    #ser-container {
+      display: block;
+    }
+
+    #boc h3 {
+      font-size: 4rem;
+    }
+
+    #personal-training p {
+      font-size: 1.5rem;
+    }
+
+    #personal-training h2 {
+      font-size: 2rem;
+      border: #000;
+      border-width: 0.1%;
+      border-style: solid;
+      border-radius: 20px;
+    }
+
+    #plan-section h2 {
+      font-size: 2rem;
+      border: #000;
+      border-width: 0.1%;
+      border-style: solid;
+      border-radius: 20px;
+    }
+
+    #Contactus h3 {
+      font-size: 1.5rem;
+    }
+
+    #Contactus h2 {
+      font-size: 3rem;
+     
+    }
+
+    .per-sess-price {
+      display: none;
+    }
+
+    #how-it-works h2 {
+      font-size: 3rem;
+    }
+
+    #how-it-works {
+      font-size: 1.5rem;
+    }
+
+    .step-number {
+      width: 2.25rem;
+      height: 2.25rem;
+    }
+  }
